@@ -8,7 +8,7 @@ import sqlite3
 import plotly.express as px
 
 # git.Repo.clone_from('https://github.com/PhonePe/pulse.git', 'PhonePe_Pulse')
-path = "G:/GUVI/Data Science - GUVI/DTM2/Phonepe Project/Gitrepo/PhonePe_Pulse/data/aggregated/transaction/country/india/state"
+path = "PhonePe_Pulse/data/aggregated/transaction/country/india/state"
 Agg_state_list = os.listdir(path)
 
 clm = {'State': [], 'Year': [], 'Quarter': [], 'Transaction_type': [], 'Transaction_count': [], 'Transaction_amount': []}
