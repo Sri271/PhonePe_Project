@@ -222,6 +222,7 @@ SELECT = option_menu(
             "icon": {"color": "white", "font-size": "20px"},
             "nav-link": {"font-size": "20px", "text-align": "center", "margin": "-2px", "--hover-color": "#6F36AD"},
             "nav-link-selected": {"background-color": "#6F36AD"}
+        }
 
     )
 
