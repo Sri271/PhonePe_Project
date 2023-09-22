@@ -216,7 +216,6 @@ SELECT = option_menu(
         options = ["Search Data", "Home", "Basic Insights"],
         icons =["search", "house", "toggles"],
         default_index=1,
-        orientation="horizontal",
         styles={
             "container": {"padding": "0!important", "background-color": "black","size":"cover"},
             "icon": {"color": "white", "font-size": "20px"},
