@@ -216,6 +216,12 @@ SELECT = option_menu(
         options = ["Search Data", "Home", "Basic Insights"],
         icons =["search", "house", "toggles"],
         default_index=1,
+        orientation="horizontal",
+        styles={
+            "container": {"padding": "0!important", "background-color": "black","size":"cover"},
+            "icon": {"color": "white", "font-size": "20px"},
+            "nav-link": {"font-size": "20px", "text-align": "center", "margin": "-2px", "--hover-color": "#6F36AD"},
+            "nav-link-selected": {"background-color": "#6F36AD"}
 
     )
 
