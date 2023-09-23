@@ -211,6 +211,7 @@ df_top_transaction.to_sql('top_transaction', connection, if_exists='replace')
 df_top_user.to_sql('top_user', connection, if_exists='replace')
 
 st.title("PhonePe Pulse Data Visualization and Exploration")
+st.write( f'<h6 style="color:rgb(0,  102, 204, 255);">App Created by Sriram</h6>', unsafe_allow_html=True ) 
 SELECT = option_menu(
         menu_title = None,
         options = ["Search Data", "Home", "Basic Insights"],
