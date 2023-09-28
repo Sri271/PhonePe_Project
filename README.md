@@ -11,28 +11,28 @@ The Phonepe pulse Github repository contains a large amount of data related to v
 
 # Steps:
 
-# *Data extraction: 
+*Data extraction: 
 Cloning the Github using scripting to fetch the data from the
 Phonepe pulse Github repository and storing it in a suitable format such as CSV
 or JSON.
 
-# *Data transformation: 
+*Data transformation: 
 Using Python, Pandas, to manipulate and pre-process the data which may
 include cleaning the data, handling missing values, and transforming the data into a format suitable for analysis and visualization.
 
-# *Database insertion: 
+*Database insertion: 
 Inserting the data from Python to
 connect to a SQL database and insert the transformed data using SQL
 commands. (MySQL, Postgres SQL, SQLite, any database).
 
-# *Dashboard creation: 
+*Dashboard creation: 
 Using the Streamlit and Plotly libraries in Python to create
 an interactive and visually appealing dashboard.
 
-# *Data retrieval: 
+*Data retrieval: 
 Using the sqlconnector to fetch the data into a Pandas dataframe.
 
-# *Deployment: 
+*Deployment: 
 Deploying the dashboard publicly, making it accessible to users for visualizing the insights obtained from the data.
 
 
